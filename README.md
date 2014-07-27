@@ -27,13 +27,13 @@ Git repository centraal, vanuit deze weergave zijn alle mutaties te zien.
 ## Aangeraden instellingen
 
 * Git
-* * Gebruik Putty voor SSH
-* * Checkout Windows-style, commit Unix-style
-* * git-cheetah en andere shell extension uitvinken, Git Extentions installeerd
-zijn eigen.
+** Gebruik Putty voor SSH
+** Checkout Windows-style, commit Unix-style
+** git-cheetah en andere shell extension uitvinken, Git Extentions installeerd
+    zijn eigen.
 * Git Extentions
-* * Kies bij de eerste opstart voor de Engelse taal, hiermee verkom je dat de
-git commando's vernederlandst worden weergegeven.
+** Kies bij de eerste opstart voor de Engelse taal, hiermee verkom je dat de
+    git commando's vernederlandst worden weergegeven.
 
 # Git commando's
 
