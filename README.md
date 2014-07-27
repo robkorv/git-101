@@ -77,5 +77,5 @@ Specificeert te negeren [untracked bestanden](#untracked-bestanden).
 
 ## untracked bestanden
 
-Bestanden binnen de Git repository directory die nog niet met
+Bestanden binnen de Git repository map die nog niet met
 [git commit](#git-commit) zijn toegevoegd.
