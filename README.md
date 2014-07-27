@@ -8,7 +8,7 @@
 
 > Git is makkelijk te leren, heeft weinig resources nodig en is super snel. Het
     presteert beter dan andere versie beheer systemen door de ondersteuning van
-    lokaal branchen, staging areas en meerdere workflows.
+    lokaal branching, staging areas en meerdere workflows.
 
 _Bron: [git-scm.com](http://git-scm.com/)_
 
@@ -18,9 +18,9 @@ een grafische interface bovenop Git opereren.
 # Git binnen Windows
 
 [Git Extentions], is de meest complete GUI voor windows. Deze heeft bijna alle
-Git commando's beschikbaar, integreert met Windows Explorer en biedt een extensie
-voor Visual Studio. In deze client staat de visuele weergave van een Git repository
-centraal, vanuit deze weergave zijn alle mutaties te zien.
+Git commando's visueel beschikbaar, integreert met Windows Explorer en biedt een
+extensie voor Visual Studio. In deze client staat de visuele weergave van een
+Git repository centraal, vanuit deze weergave zijn alle mutaties te zien.
 
 [Git Extentions]: https://github.com/gitextensions/gitextensions
 
