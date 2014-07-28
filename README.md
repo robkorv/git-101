@@ -65,6 +65,29 @@ Legt veranderingen vast in de Git repository.
 
 Specificeert te negeren [untracked bestanden](#untracked-bestanden).
 
+Dit is tekst bestand binnen de Git repository met alleen de extentie
+`.gitignore`.
+
+```
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+```
+
+_Bron: [Windows.gitignore](https://github.com/github/gitignore/blob/master/Global/Windows.gitignore)_
+
 ### Git Extentions
 
 `rechter muis knop -> GitEx Commit...` op of in de Git repository map.
