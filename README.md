@@ -10,7 +10,7 @@
     presteert beter dan andere versie beheer systemen door de ondersteuning van
     lokaal branching, staging areas en meerdere workflows.
 
-_Bron: [git-scm.com](http://git-scm.com/)_
+_Bron: [git-scm.com]_
 
 Git heeft alleen een commandline interface, er zijn echter diverse tools die met
 een grafische interface bovenop Git opereren.
@@ -21,8 +21,6 @@ een grafische interface bovenop Git opereren.
 Git commando's visueel beschikbaar, integreert met Windows Explorer en biedt een
 extensie voor Visual Studio. In deze client staat de visuele weergave van een
 Git repository centraal, vanuit deze weergave zijn alle mutaties te zien.
-
-[Git Extentions]: https://github.com/gitextensions/gitextensions
 
 ## Aangeraden instellingen
 
@@ -47,8 +45,6 @@ Maakt een lege Git repository aan.
 
 ![rechter muis knop -> GitEx Create new repository...][init-gitextensions]
 
-[init-gitextensions]: img/init-gitextensions.png
-
 ## [git commit](http://git-scm.com/docs/git-commit)
 
 Legt veranderingen vast in de Git repository.
@@ -59,11 +55,9 @@ Legt veranderingen vast in de Git repository.
 
 ![rechter muis knop -> GitEx Commit...][commit-gitextensions]
 
-[commit-gitextensions]: img/commit-gitextensions.png
-
 ## [gitignore](http://git-scm.com/docs/gitignore)
 
-Specificeert te negeren [untracked bestanden](#untracked-bestanden).
+Specificeert te negeren [untracked bestanden].
 
 Dit is een tekst bestand binnen de Git repository met alleen de extentie
 `.gitignore`. Wildcards kunnen gebruikt worden. Een hele map wordt genegeerd door
@@ -87,7 +81,7 @@ $RECYCLE.BIN/
 *.msp
 ```
 
-_Bron: [Windows.gitignore](https://github.com/github/gitignore/blob/master/Global/Windows.gitignore)_
+_Bron: [Windows.gitignore]_
 
 ### Git Extentions
 
@@ -97,12 +91,19 @@ Heeft hier een handigheidje voor. In het [git commit] scherm kan je met
 ![rechter muis knop -> Add file to .gitignore][gitignore01-gitextensions]
 ![interactief ignores toevoegen][gitignore02-gitextensions]
 
-[gitignore01-gitextensions]: img/gitignore01-gitextensions.png
-[gitignore02-gitextensions]: img/gitignore02-gitextensions.png
-
 # voetnoten
 
 ## untracked bestanden
 
-Bestanden binnen de Git repository map die nog niet met
-[git commit](#git-commit) zijn toegevoegd.
+Bestanden binnen de Git repository map die nog niet met [git commit] zijn
+toegevoegd.
+
+[git-scm.com]: http://git-scm.com/
+[Git Extentions]: https://github.com/gitextensions/gitextensions
+[init-gitextensions]: img/init-gitextensions.png
+[commit-gitextensions]: img/commit-gitextensions.png
+[untracked bestanden]: #untracked-bestanden
+[Windows.gitignore]: https://github.com/github/gitignore/blob/master/Global/Windows.gitignore
+[gitignore01-gitextensions]: img/gitignore01-gitextensions.png
+[gitignore02-gitextensions]: img/gitignore02-gitextensions.png
+[git commit]: #git-commit
