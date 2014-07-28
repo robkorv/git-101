@@ -65,8 +65,9 @@ Legt veranderingen vast in de Git repository.
 
 Specificeert te negeren [untracked bestanden](#untracked-bestanden).
 
-Dit is tekst bestand binnen de Git repository met alleen de extentie
-`.gitignore`.
+Dit is een tekst bestand binnen de Git repository met alleen de extentie
+`.gitignore`. Wildcards kunnen gebruikt worden. Een hele map wordt genegeerd door
+achter de naam een `/` te zetten.
 
 ```
 # Windows image file caches
