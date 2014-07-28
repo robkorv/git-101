@@ -91,11 +91,14 @@ _Bron: [Windows.gitignore](https://github.com/github/gitignore/blob/master/Globa
 
 ### Git Extentions
 
-`rechter muis knop -> GitEx Commit...` op of in de Git repository map.
+Heeft hier een handigheidje voor. In het [git commit] scherm kan je met
+`rechter muis knop -> Add file to .gitignore` interactief ignores toevoegen.
 
-![rechter muis knop -> GitEx Commit...][commit-gitextensions]
+![rechter muis knop -> Add file to .gitignore][gitignore01-gitextensions]
+![interactief ignores toevoegen][gitignore02-gitextensions]
 
-[commit-gitextensions]: img/commit-gitextensions.png
+[gitignore01-gitextensions]: img/gitignore01-gitextensions.png
+[gitignore02-gitextensions]: img/gitignore02-gitextensions.png
 
 # voetnoten
 
