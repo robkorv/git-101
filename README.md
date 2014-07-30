@@ -37,7 +37,7 @@ Git repository centraal, vanuit deze weergave zijn alle mutaties te zien.
 
 ## [git init](http://git-scm.com/docs/git-init)
 
-Maakt een lege Git repository aan.
+__Maakt een lege Git repository aan.__
 
 ### Git Extentions
 
@@ -47,7 +47,7 @@ Maakt een lege Git repository aan.
 
 ## [git commit](http://git-scm.com/docs/git-commit)
 
-Legt veranderingen vast in de Git repository.
+__Legt veranderingen vast in de Git repository.__
 
 ### Git Extentions
 
@@ -57,7 +57,7 @@ Legt veranderingen vast in de Git repository.
 
 ## [gitignore](http://git-scm.com/docs/gitignore)
 
-Specificeert te negeren [untracked bestanden].
+__Specificeert te negeren [untracked bestanden].__
 
 Dit is een tekst bestand binnen de Git repository met alleen de extentie
 `.gitignore`. Wildcards kunnen gebruikt worden. Een hele map wordt genegeerd door
@@ -91,11 +91,33 @@ Heeft hier een handigheidje voor. In het [git commit] scherm kan je met
 ![rechter muis knop -> Add file to .gitignore][gitignore01-gitextensions]
 ![interactief ignores toevoegen][gitignore02-gitextensions]
 
+## [git add](http://git-scm.com/docs/git-add)
+
+_[git stage](http://git-scm.com/docs/git-stage) is een synoniem van dit commando_
+
+__Voegt bestanden toe aan de index van de Git repository.__
+
+### Git Extentions
+
+Heeft deze functie in het [git commit] scherm.
+
+`Stage` of `Stage all` in het [git commit] scherm.
+
+![Stage of Stage all][add-gitextensions]
+
+# Git workflow
+
+### Extra lees voer
+
+[Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)  
+[GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html)  
+[A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)  
+
 # voetnoten
 
 ## untracked bestanden
 
-Bestanden binnen de Git repository map die nog niet met [git commit] zijn
+Bestanden binnen de Git repository map die nog niet met [git add] zijn
 toegevoegd.
 
 [git-scm.com]: http://git-scm.com/
@@ -107,3 +129,4 @@ toegevoegd.
 [gitignore01-gitextensions]: img/gitignore01-gitextensions.png
 [gitignore02-gitextensions]: img/gitignore02-gitextensions.png
 [git commit]: #git-commit
+[add-gitextensions]: img/add-gitextensions.png
