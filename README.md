@@ -105,14 +105,6 @@ Heeft deze functie in het [git commit] scherm.
 
 ![Stage of Stage all][add-gitextensions]
 
-### Git Extentions
-
-Heeft hier een handigheidje voor. In het [git commit] scherm kan je met
-`rechter muis knop -> Add file to .gitignore` interactief ignores toevoegen.
-
-![rechter muis knop -> Add file to .gitignore][gitignore01-gitextensions]
-![interactief ignores toevoegen][gitignore02-gitextensions]
-
 ## [git branch](http://git-scm.com/docs/git-branch)
 
 __Toont, creëert, of verwijdert branches.__
