@@ -147,3 +147,4 @@ toegevoegd.
 [git commit]: #git-commit
 [add-gitextensions]: img/add-gitextensions.png
 [branch-gitextensions]: img/branch-gitextensions.png
+[git add]: #git-add
