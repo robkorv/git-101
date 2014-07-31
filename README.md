@@ -137,6 +137,15 @@ Geef de branch een beschrijvende naam, zodat iemand anders kan zien waaraan je
 werkt (bijvoorbeeld `hoofdmenu-alternatieve-kleur`, `localstorage-formulier`,
 `fix-login`).
 
+## Voeg commits toe
+
+Als je een [branch](#cre-er-een-branch) heb aangemaakt, kan je veranderingen maken.
+Elke keer als je een bestand creëert, wijzigt, of verwijderd maak je een commit
+en voeg je deze toe aan de branch.
+
+Door te committen bouw je een geschiedenis op zodat andere kunnen volgen wat je hebt
+gedaan en waarom.
+
 ### Extra lees voer
 
 [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)  
