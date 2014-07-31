@@ -123,6 +123,20 @@ branches.
 
 # Git workflow
 
+## `master` branch
+
+Dit is de default branch als je een Git repository aanmaakt. Zorg dat deze één op
+één is met de productie en alleen stabiele, geteste code bevat.
+
+## Creëer een branch vanuit `master`
+
+Met een nieuwe branch creëer je een omgeving waar je dingen kan uitproberen. 
+Veranderingen hebben geen invloed op de `master`.
+
+Geef de branch een beschrijvende naam, zodat iemand anders kan zien waaraan je
+werkt (bijvoorbeeld `hoofdmenu-alternatieve-kleur`, `localstorage-formulier`,
+`fix-login`).
+
 ### Extra lees voer
 
 [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)  
